@@ -1,12 +1,12 @@
-def factorial(a):
+def factorial(n):
      x = 1
      while(a>=1):
-          x = x*a
-          a = a-1
+          x = x*n
+          n = n-1
 
      
      return x
 
-a = int(input("Enter Number "))
+n = int(input("Enter Number "))
 
 print(factorial(a))
